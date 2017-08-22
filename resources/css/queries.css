@@ -167,7 +167,7 @@
     }
     .portfolio-modal .close-modal {
         position: absolute;
-        top: 70px;
+        top: 40px;
         right: 25px;
         width: 50px;
         height: 50px;
@@ -196,6 +196,12 @@
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
     }
+     #portfolio .portfolio-item {
+        margin: 0 0 30px
+    }
+    #particles-js.section-skills{
+        height: 250px;
+    }
 }
 
 
@@ -215,6 +221,9 @@
     .main-nav li a:link,
     .main-nav li a:visited {
         padding: 5px 0;
+    }
+    #particles-js.section-skills{
+        height: 250px;
     }
 }
 
@@ -236,8 +245,13 @@
         padding: 5px 0;
     }
     .portfolio-modal .close-modal {
+        position: absolute;
+        top: 40px;
+        right: 25px;
         width: 40px;
         height: 40px;
+        background-color: transparent;
+        cursor: pointer;
     }
     .portfolio-modal .close-modal .lr {
         height: 40px;
@@ -245,10 +259,8 @@
     .portfolio-modal .close-modal .lr .rl {
         height: 40px;
     }
-}
-
-@media(min-width:767px) {
-    #portfolio .portfolio-item {
-        margin: 0 0 30px
+    #particles-js.section-skills{
+        height: 100px;
     }
 }
+
