@@ -1,3 +1,2 @@
 # bojanazivkovic.github.io
 IN PROGRESS...
-## adding more portfolio projects
