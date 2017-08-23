@@ -1,11 +1,35 @@
 $(document).ready(function () {
 
+    //portfolio filtering
+    $('.fil-cat').click(function(){
+        var filter = $(this).attr("data-rel");
+        if(filter == 'all'){
+            $('#portfolioFilter div.tile.scale-anm').fadeIn(300).removeClass('hidden');
+        }else{
+            $('#portfolioFilter div.tile.scale-anm').each(function(){
+                if(!$(this).hasClass(filter)){
+                    $(this).fadeOut(300).addClass('hidden');
+                }else {
+                    $(this).fadeIn(300).removeClass('hidden');
+                }
+            });
+        }
+    });
+    
+        
+      
+        
+        
+    
     //removing two y scroll on modal
     $(".portfolio-link").click(function () {
         $('html,body').toggleClass("no-scroll", true);
+        //for mozzila...modal without sticky won't work
+        $('nav').toggleClass("forMozz", true);
     });
     $(".close-modal").click(function () {
         $('html,body').toggleClass("no-scroll", false);
+        $('nav').toggleClass("forMozz", false);
     });
 
     $("span.typer").typed({
@@ -16,7 +40,6 @@ $(document).ready(function () {
             $(this)
         }
     });
-
 
 
     /*for the sticky navigation*/
