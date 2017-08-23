@@ -1,26 +1,23 @@
 $(document).ready(function () {
 
     //portfolio filtering
-    $('.fil-cat').click(function(){
+    $('.fil-cat').click(function () {
         var filter = $(this).attr("data-rel");
-        if(filter == 'all'){
+        if (filter == 'all') {
             $('#portfolioFilter div.tile.scale-anm').fadeIn(300).removeClass('hidden');
-        }else{
-            $('#portfolioFilter div.tile.scale-anm').each(function(){
-                if(!$(this).hasClass(filter)){
+        } else {
+            $('#portfolioFilter div.tile.scale-anm').each(function () {
+                if (!$(this).hasClass(filter)) {
                     $(this).fadeOut(300).addClass('hidden');
-                }else {
+                } else {
                     $(this).fadeIn(300).removeClass('hidden');
                 }
             });
         }
     });
-    
-        
-      
-        
-        
-    
+
+
+
     //removing two y scroll on modal
     $(".portfolio-link").click(function () {
         $('html,body').toggleClass("no-scroll", true);
