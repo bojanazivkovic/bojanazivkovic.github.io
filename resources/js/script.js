@@ -4,13 +4,13 @@ $(document).ready(function () {
     $('.fil-cat').click(function () {
         var filter = $(this).attr("data-rel");
         if (filter == 'all') {
-            $('#portfolioFilter div.tile.scale-anm').fadeIn(300).removeClass('hidden');
+            $('#portfolioFilter div.tile.scale-anm').fadeIn(100).removeClass('hidden');
         } else {
             $('#portfolioFilter div.tile.scale-anm').each(function () {
                 if (!$(this).hasClass(filter)) {
-                    $(this).fadeOut(300).addClass('hidden');
+                    $(this).fadeOut(100).addClass('hidden');
                 } else {
-                    $(this).fadeIn(300).removeClass('hidden');
+                    $(this).fadeIn(100).removeClass('hidden');
                 }
             });
         }
