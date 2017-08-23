@@ -521,23 +521,23 @@ header {
     background-color: #f4f4f4;
 }
 
-.tile { 
+.tile {
     -webkit-transform: scale(0);
     transform: scale(0);
     -webkit-transition: all 350ms ease;
     transition: all 350ms ease;
+}
 
-}
 .scale-anm {
-  -webkit-transform: scale(1);
-  transform: scale(1);
+    -webkit-transform: scale(1);
+    transform: scale(1);
 }
+
 .tile img {
     max-width: 100%;
     width: 100%;
     height: auto;
     margin-bottom: 1rem;
-  
 }
 
 .btn-portfolio {
@@ -564,20 +564,22 @@ header {
 }
 
 .btn:focus {
-  outline: none;
-  border-color: var(--darken-2);
-  -webkit-box-shadow: 0 0 0 3px var(--darken-3);
-  box-shadow: 0 0 0 3px var(--darken-3);
+    outline: none;
+    border-color: var(--darken-2);
+    -webkit-box-shadow: 0 0 0 3px var(--darken-3);
+    box-shadow: 0 0 0 3px var(--darken-3);
 }
 
 ::-moz-focus-inner {
-  border: 0;
-  padding: 0;
+    border: 0;
+    padding: 0;
 }
 
-.hidden{
+.hidden {
     display: none;
 }
+
+
 /* ---------------------------------------------------------------------------*/
 
 
