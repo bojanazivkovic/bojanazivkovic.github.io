@@ -196,10 +196,10 @@
         -ms-transform: rotate(90deg);
         transform: rotate(90deg);
     }
-     #portfolio .portfolio-item {
+    #portfolio .portfolio-item {
         margin: 0 0 30px
     }
-    #particles-js.section-skills{
+    #particles-js.section-skills {
         height: 250px;
     }
 }
@@ -222,7 +222,7 @@
     .main-nav li a:visited {
         padding: 5px 0;
     }
-    #particles-js.section-skills{
+    #particles-js.section-skills {
         height: 250px;
     }
 }
@@ -238,11 +238,19 @@
         width: 100%;
     }
     .logo {
-        height: 40px;
+        height: 50px;
+        margin-top: 10px;
+    }
+    .main-nav li {
+        display: block;
+        margin-left: 20px;
     }
     .main-nav li a:link,
     .main-nav li a:visited {
         padding: 5px 0;
+    }
+    .portfolio-modal .modal-content p.item-intro a {
+        font-size: 14px;
     }
     .portfolio-modal .close-modal {
         position: absolute;
@@ -259,8 +267,27 @@
     .portfolio-modal .close-modal .lr .rl {
         height: 40px;
     }
-    #particles-js.section-skills{
+    .btn-portfolio {
+        font-size: 0.7rem;
+        padding: .4rem 0.9rem;
+        margin-bottom: 20px;
+    }
+    #particles-js.section-skills {
         height: 100px;
     }
+    .section-form .contact-data {
+        padding-left: 20px;
+        padding-bottom: 20px;
+    }
+    .section-form .contact-data p {
+        font-size: 120%;
+        display: inline-block;
+        padding: 0 10px;
+        vertical-align: middle;
+    }
+    .ion-ios-email-outline,
+    .ion-ios-telephone-outline {
+        font-size: 150%;
+        color: #CF000F;
+    }
 }
-
