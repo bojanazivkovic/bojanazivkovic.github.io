@@ -1,2 +1,2 @@
 # bojanazivkovic.github.io
-IN PROGRESS...
+Online portfolio
