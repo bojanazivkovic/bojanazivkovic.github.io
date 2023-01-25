@@ -37,51 +37,6 @@ const colors = [
   shininess: 0 },
 
 {
-  color: '131417' },
-
-{
-  color: '374047' },
-
-{
-  color: '5f6e78' },
-
-{
-  color: '7f8a93' },
-
-{
-  color: '97a1a7' },
-
-{
-  color: 'acb4b9' },
-
-{
-  color: 'DF9998' },
-
-{
-  color: '7C6862' },
-
-{
-  color: 'A3AB84' },
-
-{
-  color: 'D6CCB1' },
-
-{
-  color: 'F8D5C4' },
-
-{
-  color: 'A3AE99' },
-
-{
-  color: 'EFF2F2' },
-
-{
-  color: 'B0C5C1' },
-
-{
-  color: '8B8C8C' },
-
-{
   color: '565F59' },
 
 {
